@@ -1,8 +1,8 @@
 from telethon.sync import TelegramClient
 
 # Use your own values from my.telegram.org
-api_id = 790094
-api_hash = '9d2d81b524e8ae97ea96d024288e18ee'
+api_id = #enter your api_id
+api_hash = #'enter your api_hash'
 
 # The first parameter is the .session file name (absolute paths allowed)
 with TelegramClient('anon', api_id, api_hash) as client:
